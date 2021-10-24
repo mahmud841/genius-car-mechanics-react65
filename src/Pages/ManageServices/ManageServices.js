@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './ManageServices.css';
 
 const ManageServices = () => {
   const [services, setServices] = useState([]);
@@ -27,7 +28,7 @@ const ManageServices = () => {
   }
 
   return (
-    <div>
+    <div className="service">
       <h2>Manage Services Page </h2>
       {
         services.map(service => <div key={service._id}>

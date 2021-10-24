@@ -1,0 +1,8 @@
+.service{
+  background-color: rgb(231, 203, 231);
+  display: flex;
+  font-style: italic;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

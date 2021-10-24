@@ -1,9 +1,20 @@
+.add-service {
+  background-color: rgb(31, 151, 111);
+  color: rgb(70, 161, 161);
+}
+
+h1,p{
+  color: rgb(231, 172, 62);
+  font-style: italic;
+}
+
 .add-service form{
   display: flex;
   flex-direction: column;
   padding-left: 3%;
   justify-content: center;
   align-items: center;
+
 }
 .add-service form input, textarea{
   width: 50%;
