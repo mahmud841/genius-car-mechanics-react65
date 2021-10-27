@@ -11,7 +11,7 @@ const AddService = () => {
       .then(res => {
         // console.log(res);
         if (res.data.inserted) {
-          alert('adde successfully');
+          alert('added successfully');
           reset();
         }
       })
@@ -25,7 +25,7 @@ const AddService = () => {
         <input {...register("description")} placeholder="description" />
         <input type="number" {...register("price")} placeholder="price" />
         <input {...register("img")} placeholder="image url" />
-        <input type="submit" />
+         <input type="submit" />
       </form>
     </div>
   );
